@@ -38,6 +38,7 @@ yarn create react-app my-app --template antdride
 | CSS Framework | Antd                                        |
 | CRA-override  | [craco](https://github.com/gsoft-inc/craco) |
 | Datetime      | [moment.js](https://momentjs.com/)          |
+| fp-utils      | [ramda.js](https://ramdajs.com/)            |
 
 ## For more information
 
