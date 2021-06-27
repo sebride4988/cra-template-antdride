@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.png';
-import './App.css';
+import './App.less';
 import { Typography } from 'antd';
 
 function App() {
