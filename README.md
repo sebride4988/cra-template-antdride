@@ -32,10 +32,11 @@ yarn create react-app my-app --template antdride
 
 ## In this template
 
-| Stack | Name |
-|---|---|
-| Preprocessors | Less |
-| CRA-override | [craco](https://github.com/gsoft-inc/craco) |
+| Stack         | Name                                        |
+| ------------- | ------------------------------------------- |
+| Preprocessors | Less                                        |
+| CSS Framework | Antd                                        |
+| CRA-override  | [craco](https://github.com/gsoft-inc/craco) |
 
 ## For more information
 
