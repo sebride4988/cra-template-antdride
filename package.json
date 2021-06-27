@@ -1,0 +1,30 @@
+{
+  "name": "cra-template-antdride",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "antdride",
+    "antd",
+    "less",
+    "craco",
+    "typescript"
+  ],
+  "description": "The custom template for Create React App.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebride4988/cra-template-antdride.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "bugs": {
+    "url": "https://github.com/sebride4988/cra-template-antdride/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
