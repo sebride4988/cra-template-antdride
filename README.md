@@ -36,6 +36,7 @@ yarn create react-app my-app --template antdride
 | ------------- | ------------------------------------------- |
 | Preprocessors | Less                                        |
 | CSS Framework | Antd                                        |
+| Router        | React Router                                |
 | CRA-override  | [craco](https://github.com/gsoft-inc/craco) |
 | Datetime      | [moment.js](https://momentjs.com/)          |
 | utils         | [lodash](https://lodash.com/)               |
