@@ -8,7 +8,10 @@
 
 This is the custom template for [Create React App](https://github.com/facebook/create-react-app).
 
-This is inspired by [cra-template-typescript](https://github.com/facebook/create-react-app/tree/master/packages/cra-template-typescript).
+This is inspired by the following
+
+- [cra-template-typescript](https://github.com/facebook/create-react-app/tree/master/packages/cra-template-typescript)
+- [cra-template-must-have-libraries](https://github.com/EliEladElrom/cra-template-must-have-libraries)
 
 ## Start Template
 

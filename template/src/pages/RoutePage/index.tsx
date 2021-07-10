@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.png';
+import logo from '../../assets/images/logo.png';
 import './index.less';
 import { Typography } from 'antd';
 import { Link } from 'react-router-dom';
 
-function HomePage() {
+function RoutePage() {
   return (
     <div className="App">
       <header className="App-header">
@@ -41,4 +41,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default RoutePage;

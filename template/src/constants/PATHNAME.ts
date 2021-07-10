@@ -1,5 +1,5 @@
 const PATHNAME = {
-  home: {
+  route: {
     path: '/',
   },
   about: {

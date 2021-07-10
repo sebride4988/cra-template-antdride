@@ -9,8 +9,8 @@ type MergeProps = Error404Props;
 
 function Error404(props: MergeProps) {
   const history = useHistory();
-  const goHome = useCallback(() => {
-    history.push(PATHNAME.home.path);
+  const goRoute = useCallback(() => {
+    history.push(PATHNAME.route.path);
   }, [history]);
 
   return (
@@ -19,7 +19,7 @@ function Error404(props: MergeProps) {
       title="404"
       subTitle="Sorry, the page you visited does not exist."
       extra={
-        <Button type="primary" onClick={goHome}>
+        <Button type="primary" onClick={goRoute}>
           Back Home
         </Button>
       }

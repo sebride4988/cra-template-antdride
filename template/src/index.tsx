@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.less';
-import Routes from './routes';
 import reportWebVitals from './reportWebVitals';
+import AppRouter from './AppRouter';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Routes />
+    <AppRouter />
   </React.StrictMode>,
   document.getElementById('root')
 );
