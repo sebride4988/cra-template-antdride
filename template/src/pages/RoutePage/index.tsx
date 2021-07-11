@@ -9,7 +9,7 @@ function RoutePage() {
       <header className="App-header">
         <img src={logo} alt="logo" style={{ background: 'white' }} />
         <Typography.Paragraph style={{ color: 'white' }}>
-          Edit <code>src/routes/HomePage/index.tsx</code> and save to reload.
+          Edit <code>src/pages/RoutePage/index.tsx</code> and save to reload.
         </Typography.Paragraph>
         <a
           className="App-link"
