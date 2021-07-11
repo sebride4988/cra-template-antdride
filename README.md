@@ -35,15 +35,16 @@ yarn create react-app my-app --template antdride
 
 ## In this template
 
-| Stack         | Name                                        |
-| ------------- | ------------------------------------------- |
-| Preprocessors | Less                                        |
-| CSS Framework | Antd                                        |
-| Router        | React Router                                |
-| CRA-override  | [craco](https://github.com/gsoft-inc/craco) |
-| Datetime      | [moment.js](https://momentjs.com/)          |
-| utils         | [lodash](https://lodash.com/)               |
-| fp-utils      | [ramda.js](https://ramdajs.com/)            |
+| Stack         | Name                                                                                                           |
+| ------------- | -------------------------------------------------------------------------------------------------------------- |
+| Preprocessors | Less                                                                                                           |
+| CSS Framework | Antd                                                                                                           |
+| Router        | React Router                                                                                                   |
+| CRA-override  | [craco](https://github.com/gsoft-inc/craco)                                                                    |
+| Datetime      | [moment.js](https://momentjs.com/)                                                                             |
+| utils         | [lodash](https://lodash.com/)                                                                                  |
+| fp-utils      | [ramda.js](https://ramdajs.com/)                                                                               |
+| SEO support   | [react-snap](https://github.com/stereobooster/react-snap), [react-helmet](https://github.com/nfl/react-helmet) |
 
 ## For more information
 

@@ -13,7 +13,7 @@ function Bootstrap() {
 }
 
 const rootElement = document.getElementById('root');
-if (rootElement && rootElement.hasChildNodes()) {
+if (rootElement?.hasChildNodes()) {
   hydrate(<Bootstrap />, rootElement);
 } else {
   render(<Bootstrap />, rootElement);

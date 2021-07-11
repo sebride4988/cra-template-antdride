@@ -2,6 +2,7 @@ import { useCallback } from 'react';
 import { Result, Button } from 'antd';
 import { useHistory } from 'react-router';
 import { PATHNAME } from '../../../constants';
+import Error404Helmet from './Error404Helmet';
 
 interface Error404Props {}
 
@@ -14,16 +15,19 @@ function Error404(props: MergeProps) {
   }, [history]);
 
   return (
-    <Result
-      status="404"
-      title="404"
-      subTitle="Sorry, the page you visited does not exist."
-      extra={
-        <Button type="primary" onClick={goRoute}>
-          Back Home
-        </Button>
-      }
-    ></Result>
+    <>
+      <Error404Helmet />
+      <Result
+        status="404"
+        title="404"
+        subTitle="Sorry, the page you visited does not exist."
+        extra={
+          <Button type="primary" onClick={goRoute}>
+            Back Home
+          </Button>
+        }
+      />
+    </>
   );
 }
 

@@ -1,7 +1,8 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { PATHNAME } from './constants';
+import AboutPage from './pages/AboutPage';
 import RoutePage from './pages/RoutePage';
-import WildCard from './pages/Wildcard';
+import WildcardPage from './pages/WildcardPage';
 
 interface AppRouterProps {}
 
@@ -15,10 +16,10 @@ function AppRouter(props: MergeProps) {
           <RoutePage />
         </Route>
         <Route exact path={PATHNAME.about.path}>
-          <RoutePage />
+          <AboutPage />
         </Route>
         <Route path="*">
-          <WildCard />
+          <WildcardPage />
         </Route>
       </Switch>
     </BrowserRouter>

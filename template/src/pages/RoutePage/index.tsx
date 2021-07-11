@@ -2,10 +2,12 @@ import logo from '../../assets/images/logo.png';
 import './index.less';
 import { Typography } from 'antd';
 import { Link } from 'react-router-dom';
+import RouteHelmet from './RouteHelmet';
 
 function RoutePage() {
   return (
     <div className="App">
+      <RouteHelmet />
       <header className="App-header">
         <img src={logo} alt="logo" style={{ background: 'white' }} />
         <Typography.Paragraph style={{ color: 'white' }}>
@@ -32,7 +34,7 @@ function RoutePage() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/404">404 Error</Link>
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </header>
