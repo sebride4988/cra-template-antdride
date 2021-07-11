@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import { useCallback } from 'react';
 import { Result, Button } from 'antd';
 import { useHistory } from 'react-router';
 import { PATHNAME } from '../../../constants';

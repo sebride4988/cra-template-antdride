@@ -1,13 +1,13 @@
-import React from 'react';
+import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import './index.less';
 import reportWebVitals from './reportWebVitals';
 import AppRouter from './AppRouter';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <StrictMode>
     <AppRouter />
-  </React.StrictMode>,
+  </StrictMode>,
   document.getElementById('root')
 );
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import Error404 from '../../components/Error/404';
 
 interface WildCardProps {}
