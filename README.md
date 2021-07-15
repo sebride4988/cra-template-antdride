@@ -46,6 +46,10 @@ yarn create react-app my-app --template antdride
 | fp-utils      | [ramda.js](https://ramdajs.com/)                                                                               |
 | SEO support   | [react-snap](https://github.com/stereobooster/react-snap), [react-helmet](https://github.com/nfl/react-helmet) |
 
+## This template weakness
+*It is optimized for vscode.*
+Therefore, other users such as vim will be inconvenient to use.
+
 ## For more information
 
 - [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.

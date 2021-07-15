@@ -1,9 +1,13 @@
-import logo from '../../assets/images/logo.png';
 import './index.less';
+
 import { Typography } from 'antd';
 import { Link } from 'react-router-dom';
-import RouteHelmet from './Helmet';
+
+import logo from '../../assets/images/logo.png';
 import { PATHNAME } from '../../constants';
+import RouteHelmet from './Helmet';
+
+
 
 function RoutePage() {
   return (

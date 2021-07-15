@@ -1,5 +1,7 @@
 import { TableProps } from 'antd';
+
 import { ViewTableProps } from './types';
+
 
 export function useTableProps<T extends Record<string, any>>(
   props: ViewTableProps<T>

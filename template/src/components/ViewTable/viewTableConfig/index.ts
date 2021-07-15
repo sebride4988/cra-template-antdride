@@ -1,5 +1,6 @@
 // @index('./*.ts', (f, _) => `import { ${f.name} } from '${f.path}';`)
 import { pokemon } from './pokemon';
+
 // @endindex
 
 const viewTableConfig = {

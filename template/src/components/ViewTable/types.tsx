@@ -1,5 +1,6 @@
 import { Dispatch, SetStateAction } from 'react';
 
+
 export interface ViewTableProps<T extends Record<string, any>> {
   data?: {
     results: T[];

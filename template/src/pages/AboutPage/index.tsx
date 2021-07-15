@@ -1,5 +1,6 @@
 import AboutHelmet from './Helmet';
 
+
 function AboutPage() {
   return (
     <div className="App">

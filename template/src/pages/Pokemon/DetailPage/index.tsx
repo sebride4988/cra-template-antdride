@@ -1,9 +1,11 @@
 import { Typography } from 'antd';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+
 import { PATHNAME } from '../../../constants';
 import { useFindOnePokemonByNameQuery } from '../../../redux/services/pokemon';
 import PokemonHelmet from './Helmet';
+
 
 function PokemonDetailPage() {
   const { name } = useParams<{ name: string }>();

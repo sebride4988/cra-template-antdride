@@ -1,3 +1,10 @@
 {
-  "cSpell.words": ["endindex", "postbuild", "reduxjs"]
+  "cSpell.words": [
+    "antdride",
+    "browserslist",
+    "endindex",
+    "postbuild",
+    "reduxjs"
+  ],
+  "typescriptHero.imports.organizeOnSave": true
 }

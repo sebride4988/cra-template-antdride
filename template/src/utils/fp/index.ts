@@ -1,4 +1,5 @@
-import { partial, nAry } from 'ramda';
+import { nAry, partial } from 'ramda';
+
 
 export const fp = {
   partial,

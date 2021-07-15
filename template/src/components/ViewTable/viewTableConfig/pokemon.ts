@@ -1,8 +1,10 @@
 import { useMemo } from 'react';
+
 import { PATHNAME } from '../../../constants';
 import { PokemonItem } from '../../../redux/services/types';
-import { useGoDetail } from '../hooks/useGoDetail';
 import { useAttachAttributesToOnRow } from '../hooks/useAttachAttributesToOnRow';
+import { useGoDetail } from '../hooks/useGoDetail';
+
 
 export const pokemon = {
   useColumns: () => {

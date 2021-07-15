@@ -1,10 +1,13 @@
+import './index.less';
+
 import { StrictMode } from 'react';
 import { hydrate, render } from 'react-dom';
-import './index.less';
-import reportWebVitals from './reportWebVitals';
-import AppRouter from './AppRouter';
 import { Provider } from 'react-redux';
+
+import AppRouter from './AppRouter';
 import store from './redux/store';
+import reportWebVitals from './reportWebVitals';
+
 
 function Bootstrap() {
   return (
