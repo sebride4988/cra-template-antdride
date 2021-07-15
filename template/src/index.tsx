@@ -3,11 +3,15 @@ import { hydrate, render } from 'react-dom';
 import './index.less';
 import reportWebVitals from './reportWebVitals';
 import AppRouter from './AppRouter';
+import { Provider } from 'react-redux';
+import store from './redux/store';
 
 function Bootstrap() {
   return (
     <StrictMode>
-      <AppRouter />
+      <Provider store={store}>
+        <AppRouter />
+      </Provider>
     </StrictMode>
   );
 }

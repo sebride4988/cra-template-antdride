@@ -1,6 +1,8 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { PATHNAME } from './constants';
 import AboutPage from './pages/AboutPage';
+import PokemonDetailPage from './pages/Pokemon/DetailPage';
+import PokemonListPage from './pages/Pokemon/ListPage';
 import RoutePage from './pages/RoutePage';
 import WildcardPage from './pages/WildcardPage';
 
@@ -17,6 +19,12 @@ function AppRouter(props: MergeProps) {
         </Route>
         <Route exact path={PATHNAME.about.path}>
           <AboutPage />
+        </Route>
+        <Route exact path={PATHNAME.pokemon.path}>
+          <PokemonListPage />
+        </Route>
+        <Route exact path={PATHNAME.pokemon.detail.path}>
+          <PokemonDetailPage />
         </Route>
         <Route path="*">
           <WildcardPage />

@@ -2,7 +2,8 @@ import logo from '../../assets/images/logo.png';
 import './index.less';
 import { Typography } from 'antd';
 import { Link } from 'react-router-dom';
-import RouteHelmet from './RouteHelmet';
+import RouteHelmet from './Helmet';
+import { PATHNAME } from '../../constants';
 
 function RoutePage() {
   return (
@@ -31,10 +32,13 @@ function RoutePage() {
         </a>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to={PATHNAME.route.path}>Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to={PATHNAME.about.path}>About</Link>
+          </li>
+          <li>
+            <Link to={PATHNAME.pokemon.path}>Pokemon list</Link>
           </li>
         </ul>
       </header>

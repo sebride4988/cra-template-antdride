@@ -1,4 +1,4 @@
-import AboutHelmet from './AboutHelmet';
+import AboutHelmet from './Helmet';
 
 function AboutPage() {
   return (

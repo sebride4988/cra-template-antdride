@@ -5,6 +5,12 @@ const PATHNAME = {
   about: {
     path: '/about',
   },
+  pokemon: {
+    path: '/pokemon',
+    detail: {
+      path: '/pokemon/:name',
+    },
+  },
 };
 
 export default PATHNAME;
