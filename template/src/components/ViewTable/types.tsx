@@ -10,6 +10,4 @@ export interface ViewTableProps<T extends Record<string, any>> {
   setPage: Dispatch<SetStateAction<number>>;
   size: number;
   setSize: Dispatch<SetStateAction<number>>;
-  detailPath: string;
-  detailParamKey: keyof T;
 }

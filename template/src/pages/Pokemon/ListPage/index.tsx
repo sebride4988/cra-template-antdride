@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { PATHNAME } from '../../../constants';
 import { useFindAllPokemonQuery } from '../../../redux/services/pokemon';
 import PokemonHelmet from './Helmet';
 import { ViewTableFactory } from '../../../components/ViewTable/ViewTableFactory';
@@ -20,8 +19,6 @@ function PokemonListPage() {
         setSize={setSize}
         data={data}
         isFetching={isFetching}
-        detailPath={PATHNAME.pokemon.detail.path}
-        detailParamKey="name"
       />
     </div>
   );
