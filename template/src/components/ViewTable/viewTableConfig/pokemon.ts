@@ -5,7 +5,6 @@ import { PokemonItem } from '../../../redux/services/types';
 import { useAttachAttributesToOnRow } from '../hooks/useAttachAttributesToOnRow';
 import { useGoDetail } from '../hooks/useGoDetail';
 
-
 export const pokemon = {
   useColumns: () => {
     const columns = useMemo(() => {
@@ -19,7 +18,7 @@ export const pokemon = {
   useOnRow: () => {
     const goDetail = useGoDetail<PokemonItem>(
       PATHNAME.pokemon.detail.path,
-      'name'
+      'name',
     );
     const onRow = useAttachAttributesToOnRow<PokemonItem>({
       onClick: goDetail,

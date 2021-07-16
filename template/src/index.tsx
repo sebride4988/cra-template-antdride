@@ -8,7 +8,6 @@ import AppRouter from './AppRouter';
 import store from './redux/store';
 import reportWebVitals from './reportWebVitals';
 
-
 function Bootstrap() {
   return (
     <StrictMode>

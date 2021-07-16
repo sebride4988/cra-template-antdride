@@ -7,7 +7,6 @@ import PokemonListPage from './pages/Pokemon/ListPage';
 import RoutePage from './pages/RoutePage';
 import WildcardPage from './pages/WildcardPage';
 
-
 interface AppRouterProps {}
 
 type MergeProps = AppRouterProps;

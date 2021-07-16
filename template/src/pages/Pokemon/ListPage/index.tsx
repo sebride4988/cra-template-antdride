@@ -2,8 +2,8 @@ import { useState } from 'react';
 
 import { ViewTableFactory } from '../../../components/ViewTable/ViewTableFactory';
 import { useFindAllPokemonQuery } from '../../../redux/services/pokemon';
-import PokemonHelmet from './Helmet';
 
+import PokemonHelmet from './Helmet';
 
 function PokemonListPage() {
   const [page, setPage] = useState(1);

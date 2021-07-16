@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet';
 
-
 function PokemonHelmet(props: { name: string }) {
   return (
     <Helmet>

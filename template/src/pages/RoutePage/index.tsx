@@ -5,9 +5,8 @@ import { Link } from 'react-router-dom';
 
 import logo from '../../assets/images/logo.png';
 import { PATHNAME } from '../../constants';
+
 import RouteHelmet from './Helmet';
-
-
 
 function RoutePage() {
   return (

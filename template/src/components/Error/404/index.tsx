@@ -3,8 +3,8 @@ import { useCallback } from 'react';
 import { useHistory } from 'react-router';
 
 import { PATHNAME } from '../../../constants';
-import Error404Helmet from './Error404Helmet';
 
+import Error404Helmet from './Error404Helmet';
 
 interface Error404Props {}
 

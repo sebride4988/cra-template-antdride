@@ -2,6 +2,6 @@
   "recommendations": [
     "jayfong.generate-index",
     "streetsidesoftware.code-spell-checker",
-    "rbbit.typescript-hero"
+    "dbaeumer.vscode-eslint"
   ]
 }

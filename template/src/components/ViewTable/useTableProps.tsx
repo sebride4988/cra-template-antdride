@@ -2,9 +2,8 @@ import { TableProps } from 'antd';
 
 import { ViewTableProps } from './types';
 
-
 export function useTableProps<T extends Record<string, any>>(
-  props: ViewTableProps<T>
+  props: ViewTableProps<T>,
 ): Pick<
   TableProps<T>,
   'dataSource' | 'pagination' | 'onRow' | 'onChange' | 'loading'

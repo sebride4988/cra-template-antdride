@@ -6,5 +6,12 @@
     "postbuild",
     "reduxjs"
   ],
-  "typescriptHero.imports.organizeOnSave": true
+  // Set the default
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": true
+  },
+  "javascript.format.enable": false,
+  "typescript.format.enable": false
 }

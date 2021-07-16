@@ -45,10 +45,21 @@ yarn create react-app my-app --template antdride
 | utils         | [lodash](https://lodash.com/)                                                                                  |
 | fp-utils      | [ramda.js](https://ramdajs.com/)                                                                               |
 | SEO support   | [react-snap](https://github.com/stereobooster/react-snap), [react-helmet](https://github.com/nfl/react-helmet) |
+| Format & Lint | ESLint & Prettier                                                                                              |
 
 ## This template weakness
-*It is optimized for vscode.*
+
+_It is optimized for vscode._
 Therefore, other users such as vim will be inconvenient to use.
+
+_SEO support is incomplete._
+The page linked to the dynamic pathname is not created as an SEO html file.
+
+> ex) post/:id
+
+If you would like to apply in this case, please check the services below.
+
+- [prerender.io](https://prerender.io)
 
 ## For more information
 

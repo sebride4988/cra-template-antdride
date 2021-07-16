@@ -4,9 +4,8 @@ import { ViewTableProps } from './types';
 import { useTableProps } from './useTableProps';
 import viewTableConfig from './viewTableConfig';
 
-
 export function ViewTableFactory<T extends Record<string, any>>(
-  props: ViewTableProps<T> & { type: keyof typeof viewTableConfig }
+  props: ViewTableProps<T> & { type: keyof typeof viewTableConfig },
 ) {
   const columns = viewTableConfig[props.type].useColumns();
   const onRow = viewTableConfig[props.type].useOnRow();
