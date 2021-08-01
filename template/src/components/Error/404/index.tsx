@@ -1,8 +1,7 @@
+import { PATHNAME } from '@antdride/constants';
 import { Button, Result } from 'antd';
 import { useCallback } from 'react';
 import { useHistory } from 'react-router';
-
-import { PATHNAME } from '../../../constants';
 
 import Error404Helmet from './Error404Helmet';
 

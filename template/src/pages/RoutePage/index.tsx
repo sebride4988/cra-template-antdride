@@ -1,10 +1,9 @@
 import './index.less';
 
+import logo from '@antdride/assets/images/logo.png';
+import { PATHNAME } from '@antdride/constants';
 import { Typography } from 'antd';
 import { Link } from 'react-router-dom';
-
-import logo from '../../assets/images/logo.png';
-import { PATHNAME } from '../../constants';
 
 import RouteHelmet from './Helmet';
 

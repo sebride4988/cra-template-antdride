@@ -1,7 +1,7 @@
+import { PATHNAME } from '@antdride/constants';
+import { PokemonItem } from '@antdride/redux/services/types';
 import { useMemo } from 'react';
 
-import { PATHNAME } from '../../../constants';
-import { PokemonItem } from '../../../redux/services/types';
 import { useAttachAttributesToOnRow } from '../hooks/useAttachAttributesToOnRow';
 import { useGoDetail } from '../hooks/useGoDetail';
 

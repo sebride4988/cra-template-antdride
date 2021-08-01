@@ -1,9 +1,8 @@
+import { PATHNAME } from '@antdride/constants';
+import { useFindOnePokemonByNameQuery } from '@antdride/redux/services/pokemon';
 import { Typography } from 'antd';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
-
-import { PATHNAME } from '../../../constants';
-import { useFindOnePokemonByNameQuery } from '../../../redux/services/pokemon';
 
 import PokemonHelmet from './Helmet';
 
