@@ -28,6 +28,7 @@
       "@types/react-helmet": "^6.1.2",
       "@types/react-router": "^5.1.16",
       "@types/react-router-dom": "^5.1.8",
+      "auto-changelog": "^2.3.0",
       "craco-alias": "^3.0.1",
       "craco-less": "^1.17.1",
       "eslint-config-prettier": "^8.3.0",
@@ -41,6 +42,7 @@
       "build": "craco build",
       "postbuild": "react-snap",
       "test": "craco test",
+      "version": "auto-changelog -p --template .changelog/changelog-template.hbs && yarn auto-changelog -p --template .changelog/release-note-template.hbs -o RELEASE_NOTE.md --handlebars-setup .changelog/helpers.js && git add CHANGELOG.md RELEASE_NOTE.md",
       "eject": "react-scripts eject"
     }
   }
