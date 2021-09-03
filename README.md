@@ -47,6 +47,7 @@ yarn create react-app my-app --template antdride
 | SEO support          | [react-snap](https://github.com/stereobooster/react-snap), [react-helmet](https://github.com/nfl/react-helmet) |
 | Format & Lint        | ESLint & Prettier                                                                                              |
 | Changelog Automation | [auto-changelog](https://github.com/cookpete/auto-changelog)                                                   |
+| React helper hooks   | [react-use](https://github.com/streamich/react-use)                                                            |
 
 ## This template weakness
 
