@@ -16,6 +16,7 @@
     "type": "git",
     "url": "https://github.com/sebride4988/cra-template-antdride.git"
   },
+  "author": "sebride4988 <sebride4988@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": ">=12"
