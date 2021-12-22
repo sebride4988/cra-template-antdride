@@ -1,5 +1,5 @@
-import { PATHNAME } from '@antdride/constants';
 import { Button, Result } from 'antd';
+import { PATHNAME } from 'consts';
 import { useCallback } from 'react';
 import { useHistory } from 'react-router';
 

@@ -1,4 +1,4 @@
-import Error404 from '@antdride/components/Error/404';
+import Error404 from 'components/Error/404';
 
 interface WildcardPageProps {}
 

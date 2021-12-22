@@ -31,7 +31,6 @@
       "@types/react-router": "^5.1.16",
       "@types/react-router-dom": "^5.1.8",
       "auto-changelog": "^2.3.0",
-      "craco-alias": "^3.0.1",
       "craco-less": "^1.17.1",
       "eslint-config-prettier": "^8.3.0",
       "eslint-plugin-import": "^2.23.4",

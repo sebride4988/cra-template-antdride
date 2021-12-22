@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import { PATHNAME } from './constants';
+import { PATHNAME } from './consts';
 import AboutPage from './pages/AboutPage';
 import PokemonDetailPage from './pages/Pokemon/DetailPage';
 import PokemonListPage from './pages/Pokemon/ListPage';

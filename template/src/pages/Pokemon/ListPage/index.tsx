@@ -1,6 +1,6 @@
-import { ViewTableFactory } from '@antdride/components/ViewTable/ViewTableFactory';
-import { useFindAllPokemonQuery } from '@antdride/redux/services/pokemon';
+import { ViewTableFactory } from 'components/ViewTable/ViewTableFactory';
 import { useState } from 'react';
+import { useFindAllPokemonQuery } from 'redux/services/pokemon';
 
 import PokemonHelmet from './Helmet';
 

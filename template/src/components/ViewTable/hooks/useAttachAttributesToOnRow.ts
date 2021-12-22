@@ -1,6 +1,6 @@
-import { fp } from '@antdride/utils/fp';
 import { TableProps } from 'antd';
 import { useCallback } from 'react';
+import { fp } from 'utils/fp';
 
 export function useAttachAttributesToOnRow<T extends Record<string, any>>(
   kv: Partial<

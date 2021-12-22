@@ -1,10 +1,11 @@
 {
   "cSpell.words": [
-    "Preprocessors",
     "antdride",
     "browserslist",
+    "consts",
     "endindex",
     "postbuild",
+    "Preprocessors",
     "reduxjs"
   ],
   // Set the default
