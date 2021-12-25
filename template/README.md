@@ -6,15 +6,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 | Stack         | Name                                                                                                           |
 | ------------- | -------------------------------------------------------------------------------------------------------------- |
-| Preprocessors | Less                                                                                                           |
-| CSS Framework | Antd                                                                                                           |
-| Router        | React Router                                                                                                   |
-| CRA-override  | [craco](https://github.com/gsoft-inc/craco)                                                                    |
-| Datetime      | [moment.js](https://momentjs.com/)                                                                             |
-| utils         | [lodash](https://lodash.com/)                                                                                  |
-| fp-utils      | [ramda.js](https://ramdajs.com/)                                                                               |
-| SEO support   | [react-snap](https://github.com/stereobooster/react-snap), [react-helmet](https://github.com/nfl/react-helmet) |
-| Format & Lint | ESLint & Prettier                                                                                              |
+| Preprocessors        | Less                                                                                                           |
+| Design system        | Antd                                                                                                           |
+| CSS Library        | emotion                                                                                                           |
+| Router               | React Router                                                                                                   |
+| CRA-override         | [craco](https://github.com/gsoft-inc/craco)                                                                    |
+| Datetime             | [moment.js](https://momentjs.com/)                                                                             |
+| utils                | [lodash](https://lodash.com/)                                                                                  |
+| fp-utils             | [ramda.js](https://ramdajs.com/)                                                                               |
+| SEO support          | [react-snap](https://github.com/stereobooster/react-snap), [react-helmet](https://github.com/nfl/react-helmet) |
+| Format & Lint        | ESLint & Prettier                                                                                              |
+| Changelog Automation | [auto-changelog](https://github.com/cookpete/auto-changelog)                                                   |
+| React helper hooks   | [react-use](https://github.com/streamich/react-use)                                                            |
 
 ## Available Scripts
 

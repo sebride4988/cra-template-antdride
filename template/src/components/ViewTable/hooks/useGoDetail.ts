@@ -1,4 +1,5 @@
 import { useCallback } from 'react';
+
 import { useHistory } from 'react-router';
 
 export function useGoDetail<T extends Record<string, any>>(

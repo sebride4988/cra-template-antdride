@@ -1,6 +1,7 @@
+import { useCallback } from 'react';
+
 import { Button, Result } from 'antd';
 import { PATHNAME } from 'consts';
-import { useCallback } from 'react';
 import { useHistory } from 'react-router';
 
 import Error404Helmet from './Error404Helmet';

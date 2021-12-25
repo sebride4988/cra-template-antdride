@@ -1,6 +1,7 @@
 import './index.less';
 
 import { StrictMode } from 'react';
+
 import { hydrate, render } from 'react-dom';
 import { Provider } from 'react-redux';
 

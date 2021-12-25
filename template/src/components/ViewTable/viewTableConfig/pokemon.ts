@@ -1,5 +1,6 @@
-import { PATHNAME } from 'consts';
 import { useMemo } from 'react';
+
+import { PATHNAME } from 'consts';
 import { PokemonItem } from 'redux/services/types';
 
 import { useAttachAttributesToOnRow } from '../hooks/useAttachAttributesToOnRow';

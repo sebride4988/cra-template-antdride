@@ -15,5 +15,6 @@
     "source.fixAll.eslint": true
   },
   "javascript.format.enable": false,
-  "typescript.format.enable": false
+  "typescript.format.enable": false,
+  "typescript.preferences.quoteStyle": "single"
 }
