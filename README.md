@@ -38,7 +38,8 @@ yarn create react-app my-app --template antdride
 | Stack                | Name                                                                                                           |
 | -------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Preprocessors        | Less                                                                                                           |
-| CSS Framework        | Antd                                                                                                           |
+| Design system        | Antd                                                                                                           |
+| CSS Library        | emotion                                                                                                           |
 | Router               | React Router                                                                                                   |
 | CRA-override         | [craco](https://github.com/gsoft-inc/craco)                                                                    |
 | Datetime             | [moment.js](https://momentjs.com/)                                                                             |
