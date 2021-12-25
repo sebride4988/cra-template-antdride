@@ -1,5 +1,6 @@
-import { TableProps } from 'antd';
 import { useCallback } from 'react';
+
+import { TableProps } from 'antd';
 import { fp } from 'utils/fp';
 
 export function useAttachAttributesToOnRow<T extends Record<string, any>>(
