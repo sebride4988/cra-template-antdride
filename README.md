@@ -4,7 +4,7 @@
 
 </div>
 
-# cra-template-antdride
+# cra-template-antdride &middot; [![npm](https://img.shields.io/npm/v/cra-template-antdride)](https://www.npmjs.com/package/cra-template-antdride)
 
 This is the custom template for [Create React App](https://github.com/facebook/create-react-app).
 
@@ -39,7 +39,7 @@ yarn create react-app my-app --template antdride
 | -------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Preprocessors        | Less                                                                                                           |
 | Design system        | Antd                                                                                                           |
-| CSS Library        | emotion                                                                                                           |
+| CSS Library          | emotion                                                                                                        |
 | Router               | React Router                                                                                                   |
 | CRA-override         | [craco](https://github.com/gsoft-inc/craco)                                                                    |
 | Datetime             | [moment.js](https://momentjs.com/)                                                                             |
